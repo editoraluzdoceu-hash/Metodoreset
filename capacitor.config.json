@@ -1,0 +1,20 @@
+{
+  "appId": "br.com.metodoreset.app",
+  "appName": "Método RESET",
+  "webDir": ".",
+  "bundledWebRuntime": false,
+  "backgroundColor": "#0C0A08",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "StatusBar": {
+      "overlaysWebView": true,
+      "style": "DARK",
+      "backgroundColor": "#00000000"
+    },
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
